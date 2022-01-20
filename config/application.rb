@@ -6,6 +6,8 @@ require "rails/all"
 # you've limited to :test, :development, or :production.
 Bundler.require(*Rails.groups)
 
+RSpotify::authenticate('4207efe04097425fa179530891c7e70f', '85f448726c034fc1bd3e697b86ee9b8e')
+
 module Portfolio
   class Application < Rails::Application
     # Initialize configuration defaults for originally generated Rails version.
