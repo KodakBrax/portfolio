@@ -44,7 +44,8 @@ gem "bootsnap", require: false
 
 # spotify Ruby gem
 gem 'rspotify'
-gem 'omniauth-spotify'
+gem 'omniauth'
+gem 'omniauth-rails_csrf_protection'
 
 # Use Sass to process CSS
 # gem "sassc-rails"

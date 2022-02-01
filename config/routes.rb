@@ -7,7 +7,7 @@ Rails.application.routes.draw do
 
   get 'spotify', to: 'main#spotify'
   get '/auth/spotify/callback', to: 'main#signedin'
-  get '/authorize/spotify', as: 'spotify_login'
+  get '/authorize/spotify', to: 'main#spotify_login'
 
   # nestedness captures the hierarchial relationship between articles and comments 
   resources :articles do

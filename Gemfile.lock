@@ -181,8 +181,9 @@ GEM
     omniauth-oauth2 (1.7.2)
       oauth2 (~> 1.4)
       omniauth (>= 1.9, < 3)
-    omniauth-spotify (0.0.13)
-      omniauth-oauth2 (~> 1.1)
+    omniauth-rails_csrf_protection (1.0.0)
+      actionpack (>= 4.2)
+      omniauth (~> 2.0)
     public_suffix (4.0.6)
     puma (5.5.2)
       nio4r (~> 2.0)
@@ -283,7 +284,8 @@ DEPENDENCIES
   debug
   importmap-rails
   jbuilder
-  omniauth-spotify
+  omniauth
+  omniauth-rails_csrf_protection
   puma (~> 5.0)
   rails (~> 7.0.1)
   rspotify
